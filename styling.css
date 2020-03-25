@@ -10,6 +10,7 @@ color: red;
   font-size: 16px;
   border-color: #ff3333;
   border: 3px solid #ff3333;
+  font-family: 'Lucida Console", monospace;
   cursor:pointer;
 }
 
@@ -24,6 +25,8 @@ color: red;
   background-color: #282828;
   min-width: 160px;
   border-color: #ff3333;
+  border: 3px solid #ff3333;
+  font-family: 'Lucida Console", monospace;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -33,6 +36,7 @@ color: red;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-family: 'Lucida Console", monospace;
 }
 
 .dropdown-content a:hover {background color: #282828}
