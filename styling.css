@@ -17,6 +17,8 @@ color: red;
 .dropdown {
   position: relative;
   display: inline-block;
+  border-color: #ff3333;
+  border: 3px solid #ff3333;
 }
 
 .dropdown-content {
@@ -37,6 +39,8 @@ color: red;
   text-decoration: none;
   display: block;
   font-family: 'Lucida Console", monospace;
+  border-color: #ff3333;
+  border: 3px solid #ff3333;
 }
 
 .dropdown-content a:hover {background color: #282828}
