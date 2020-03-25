@@ -3,4 +3,42 @@ background-color: black;
 font-family: 'Lucida Console", monospace;
 color: red;
 }
+.dropbtn {
+  background-color: #000000;
+  color: red;
+  padding: 16px;
+  font-size: 16px;
+  border: red;
+  cursor:pointer;
+}
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #282828;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: red;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background color: #282828}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #282828;
+}
